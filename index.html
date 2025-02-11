@@ -75,43 +75,35 @@
     <canvas id="confetti"></canvas>
 
     <!-- Invitation Content -->
-    <div class="invitation-content">
-      <h2 class="animate__animated animate__bounceIn">🎊 You're Invited! 🎊</h2>
-      <p class="lead" data-aos="zoom-in">
-        Join us as we celebrate our new home!
-      </p>
-      <p data-aos="fade-right">
-        <strong>Date & Time:</strong> Sunday, 16th February 2025 | 10:00 AM
-        onwards
-      </p>
-      <p data-aos="fade-left">
+<!-- Invitation Content -->
+<div class="invitation-content">
+    <h2 class="animate__animated animate__bounceIn">🎊 You're Invited! 🎊</h2>
+    <p class="lead" data-aos="zoom-in">Join us as we celebrate our new home!</p>
+    <p data-aos="fade-right">
+        <strong>Date & Time:</strong> Sunday, 16th February 2025 | 10:00 AM onwards
+    </p>
+    <p data-aos="fade-left">
         <strong>Venue:</strong> Plot No.3, Ellaiamman Nagar, Korattur, Chennai
         600 080
-      </p>
-      <p data-aos="flip-up"><em>Breakfast & Refreshments will be served</em></p>
+    </p>
+    <p data-aos="flip-up">
+        <strong>Landmark:</strong> Korattur Sub-Way
+    </p>
+    <p data-aos="flip-up"><em>Breakfast & Refreshments will be served</em></p>
 
-      <!-- Google Maps Embed -->
-      <div
-        data-aos="fade-up"
-        class="map-container"
-        style="
-          width: 100%;
-          height: 200px;
-          margin-top: 15px;
-          border-radius: 10px;
-          overflow: hidden;
-        ">
-        <iframe
-          class="gmap_iframe"
-          frameborder="0"
-          scrolling="no"
-          marginheight="0"
-          marginwidth="0"
-          src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-        ></iframe>
-      </div>
-      <p><strong>Hosted by:</strong> Ramasamy & Selvi Family</p>
-      <p><strong>Contact:</strong> +91 8056103207</p>
+    <!-- Google Maps Placeholder -->
+    <div data-aos="fade-up" class="map-container" 
+        style="width:100%; height:200px; margin-top:15px; border-radius:10px; overflow:hidden; display: flex; align-items: center; justify-content: center; background: #f8f9fa; border: 2px dashed #ccc;">
+        <p style="color: #555; font-size: 16px; text-align: center;">
+            📍 Location will be updated soon!
+        </p>
+    </div>
+
+    <!-- ❌ This was in the wrong place before -->
+    <p style="padding-top: 25px;"><strong>Hosted by:</strong> Ramasamy & Selvi Family</p>
+    <p><strong>Contact:</strong> +91 8056103207</p>
+    </div> <!-- ✅ This closing div was misplaced before -->
+
     </div>
 
     <!-- AOS and Confetti Scripts -->
